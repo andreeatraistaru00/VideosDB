@@ -19,6 +19,7 @@ public class Commands {
         this.jsonArray = jsonArray;
     }
 /**
+ * metoda ia fiecare comanda din input si apeleaza clasa care o implementeaza
 */
     public void getResult() throws IOException {
         List<ActionInputData> commandList = input.getCommands();
